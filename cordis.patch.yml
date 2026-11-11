@@ -1,0 +1,3 @@
+- insert:
+    - id: emc-memory
+      name: dsh-emc-memory

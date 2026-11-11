@@ -1,0 +1,24 @@
+{
+  "name": "dsh-emc-memory",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experimental e-m-c recurrent memory for DeepSeek Harness",
+  "type": "module",
+  "main": "./dsh/index.js",
+  "files": ["cordis.patch.yml", "dsh/index.js", "memory_experiment/*.py", "docs/dsh-plugin.md", "docs/memory-model.md", "rules/*.md"],
+  "keywords": ["dsh-plugin"],
+  "engines": {
+    "node": ">=24.9.0",
+    "dsh": "0.2.2-rc.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-home-paths": "0.2.2-rc.1",
+    "@deepseek-ai/dsh-tools": "0.2.2-rc.1",
+    "@deepseek-ai/schemastery": "~3.19.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
