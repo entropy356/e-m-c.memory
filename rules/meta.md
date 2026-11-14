@@ -17,7 +17,7 @@
 ## 现有规则为什么存在
 
 - [文档：当前状态](documentation.md#当前状态)：让人类与 Agent 通过当前文档了解项目，尽量不必追溯历史。
-- [代码维护](documentation.md#代码维护)：项目没有旧版本代码用户，不必为旧实现保留兼容层，也不必顺手清理无关遗留代码。
+- [代码维护约定](https://github.com/entropy356/e-m-c.workbench/blob/main/rules/code-maintenance.md)：项目没有旧版本代码用户，维护以当前设计和实际调用路径为准。
 - [文档：表述](documentation.md#表述)：降低阅读和理解 AI 产出的负担，同时保留必要的不确定性。
 - [文档：文件职责](documentation.md#文件职责)：帮助接手者快速定位当前知识与实现。
 - [Draft：命名与边界](drafts.md#命名与边界)：让临时材料易于识别，降低误用风险。
